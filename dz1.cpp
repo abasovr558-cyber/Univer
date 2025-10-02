@@ -24,10 +24,12 @@ int main()
 	float S = pow(exp(y), 1.0 / 8.0) * (1.0 / pow(5, y));
 	cout << "C = " << max(R, S) << endl;
 	cin.get();
+	system ("pause");
 	return 0;
 
 
 	
 
 }
+
 
