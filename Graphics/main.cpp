@@ -104,7 +104,7 @@ int main() {
 
                     
                     bool onParabola = std::fabs(mathY - f1(mathX)) < eps;
-                    bool onVerticalLine = std::fabs(mathX - 0.0f) < eps;
+                    bool onVerticalLine = std::fabs(mathX) < eps;
 
                     if (onParabola || onVerticalLine) {
                         area = "Border";
@@ -219,3 +219,4 @@ int main() {
 
     return 0;
 }
+
